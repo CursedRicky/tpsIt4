@@ -40,3 +40,7 @@ form {
     color: #fff;
     background-color: var(--lb);
 }
+
+#result {
+    color: #3fd0d4;
+}
