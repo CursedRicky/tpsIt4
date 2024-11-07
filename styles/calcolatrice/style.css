@@ -39,8 +39,6 @@ form {
     margin: 10px;
     color: var(--lb);
     border: 2px solid var(--lb);
-    font-size: 3rem;
-    font-weight: bold;
 }
 
 .btn-outline-ice:hover {
