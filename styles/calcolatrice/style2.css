@@ -26,29 +26,30 @@ body {
 }
 
 form {
-    width: 24%;
+    width: 30%;
     margin: auto;
     padding-top: 50px;
 }
 
+#tasti {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 25px;
+}
 
-.btn-outline-ice {
+input[type=button] {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+    background-color: #333;
     color: var(--lb);
-    border: 2px solid var(--lb);
+    font-size: 3rem;
+    font-weight: bold;
 }
 
-.btn-outline-ice:hover {
-    color: #333;
-    background-color: var(--lb);
+input[type=button]:hover{
+    background-color: #1c1c1c;
+    color: #d63d3d;
 }
-
-.btn-outline-ice-rev {
-    color: #333;
-    background-color: var(--lb);
-}
-
-.btn-outline-ice-rev:hover {
-    color: var(--lb);
-    border: 2px solid var(--lb);
-}
-
