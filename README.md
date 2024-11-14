@@ -6,4 +6,4 @@ Classe: 4 E informatica
 
 # Sito principale
 
-[Sito](https://cursedricky.github.io/tpsIt4/)
+[Pagina principale](https://cursedricky.github.io/tpsIt4/)
