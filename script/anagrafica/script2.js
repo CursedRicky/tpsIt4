@@ -22,3 +22,7 @@ function createUser() {
     iter++
 }
 
+function cancellaCronologia() {
+    localStorage.clear()
+}
+
