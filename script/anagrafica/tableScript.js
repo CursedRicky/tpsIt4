@@ -18,10 +18,3 @@ function refreshTable() {
     }
 }
 
-function cancellaCronologia() {
-    localStorage.clear()
-    location.reload(true)
-}
-
-
-
