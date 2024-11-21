@@ -19,6 +19,11 @@ function createUser() {
     localStorage.setItem("user"+iter, users[users.length-1])
     const user = users[users.length-1]
     localStorage.setItem("counter", iter)
+    document.getElementById("nome").value = ""
+    document.getElementById("cognome").value = ""
+    document.getElementById("indirizzo").value = ""
+    document.getElementById("citta").value = ""
+    document.getElementById("email").value = ""
     iter++
 }
 
