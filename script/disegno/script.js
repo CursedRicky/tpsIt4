@@ -3,7 +3,7 @@ function drawStar() {
     var w = c.width;
     var h = c.height;
     let ctx = c.getContext("2d");
-    ctx.strokeStyle = "#10e64c";
+    ctx.strokeStyle = "#0bf7ff";
     ctx.lineWidth = 5;
     ctx.moveTo(h/2, w/4*.8);
     ctx.lineTo(h/10*7, w/10*7);
@@ -19,7 +19,7 @@ function drawCircle() {
     var w = c.width;
     var h = c.height;
     let ctx = c.getContext("2d");
-    ctx.strokeStyle = "#10e64c";
+    ctx.strokeStyle = "#F72119";
     ctx.lineWidth = 5;
     ctx.beginPath();
     ctx.arc(w/2, h/2, 100, 0, 2 * Math.PI);
