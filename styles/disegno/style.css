@@ -57,3 +57,13 @@ form {
     color: #333;
     background-color: #F72119;
 }
+
+.btn-outline-g {
+    color: #39FF14;
+    border: 2px solid #39FF14;
+}
+
+.btn-outline-g:hover {
+    color: #333;
+    background-color: #39FF14;
+}
