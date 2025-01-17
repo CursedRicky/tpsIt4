@@ -31,7 +31,7 @@ function drawFuse() {
     var w = c.width;
     var h = c.height;
     let ctx = c.getContext("2d");
-    ctx.strokeStyle = "#39FF14";
+    ctx.strokeStyle = "#8A00C4";
     ctx.lineWidth = 5;
     ctx.arc(w/2, h/2, 150, 0, 2 * Math.PI);
     ctx.moveTo(h/2, w/4*.8);
