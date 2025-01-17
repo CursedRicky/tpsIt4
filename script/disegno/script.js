@@ -26,6 +26,24 @@ function drawCircle() {
     ctx.stroke();
 }
 
+function drawFuse() {
+    let c = document.getElementById("foglio3");
+    var w = c.width;
+    var h = c.height;
+    let ctx = c.getContext("2d");
+    ctx.strokeStyle = "#39FF14";
+    ctx.lineWidth = 5;
+    ctx.arc(w/2, h/2, 150, 0, 2 * Math.PI);
+    ctx.moveTo(h/2, w/4*.8);
+    
+    ctx.lineTo(h/10*7, w/10*7);
+    ctx.lineTo(h/10*2.5, w/10*4);
+    ctx.lineTo(h/10*7.5, w/10*4);
+    ctx.lineTo(h/10*3, w/10*7);
+    ctx.lineTo(h/2, w/4*.8);
+    ctx.stroke();
+}
+
 function cancella() {
     let c = document.getElementById("foglio");
     var w = c.width;
