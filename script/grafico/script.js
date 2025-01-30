@@ -2,6 +2,7 @@ let result = []
 
 /*
 Struttura del file CSV:
+Colonna1 Colonna2
 [asse X] [asse Y]
 la prima colonna viene ignorata
 */
