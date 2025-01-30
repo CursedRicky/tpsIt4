@@ -1,8 +1,13 @@
 let result = []
-let iter = 0
 
+// Variabili di configurazione
+
+// yDivisore rappresenta il numero di segmenti sull'asse Y (si consigliano valore superiori ad 8)
 let yDivisor = 10
+
+// dotEnable abilita i punti (x, y) che vengono collegati per formare il grafico
 let dotEnable = false;
+
 
 // Funzione utilizzata per leggere il file CSV inserito dall'utente
 function readFile(input) {
