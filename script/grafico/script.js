@@ -1,5 +1,11 @@
 let result = []
 
+/*
+Struttura del file CSV:
+[asse X] [asse Y]
+la prima colonna viene ignorata
+*/
+
 // Variabili di configurazione
 
 // yDivisore rappresenta il numero di segmenti sull'asse Y (si consigliano valore superiori ad 8)
