@@ -70,38 +70,6 @@ nav a:active {
     color: var(--colore);
 }
 
-@media(max-width:955px) {
-    nav {
-        display: none;
-        position: absolute;
-        top: 0;
-        right: 0;
-        width: 40%;
-        border-left: 3px solid var(--colore);
-        border-bottom: 3px solid var(--colore);
-        border-bottom-left-radius: 2rem;
-        padding: 1rem solid;
-        background-color: #16161616;
-        border-top: .1rem solid rgba(0, 0, 0, 1);
-    }
-
-    nav:active {
-        display: block;
-    }
-
-    nav a {
-        display: block;
-        font-size: 2rem;
-        margin: 3rem 0;
-    }
-
-    nav a:hover,
-    nav a:active {
-        padding: 1rem;
-        border-radius: .5rem;
-    }
-}
-
 section {
     min-height: 100vh;
     
@@ -196,12 +164,6 @@ span {
     animation: cursor .6s infinite;
 }
 
-@keyframes cursor {
-    to {
-        border-right: 3px solid var(--colore);
-    }
-}
-
 .spacer {
     aspect-ratio: 960/300;
     width: 100%;
@@ -213,6 +175,18 @@ span {
 .layer1 {
     background-image: url('./imgs/layer1.svg');
 }
+
+.parallax {
+    animation: leave both;
+    animation-timeline: view(10% 100%);
+}
+
+.autoBlur {
+    animation: autoBlur both;
+    animation-timeline: view();
+}
+
+/* Gestione responsiva */
 
 @media(max-width: 1000px) {
     .home {
@@ -237,5 +211,65 @@ span {
     .home-img img{
         width: 70vw;
         margin-top: 4rem;
+    }
+}
+
+@media(max-width:955px) {
+    nav {
+        display: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 40%;
+        border-left: 3px solid var(--colore);
+        border-bottom: 3px solid var(--colore);
+        border-bottom-left-radius: 2rem;
+        padding: 1rem solid;
+        background-color: #16161616;
+        border-top: .1rem solid rgba(0, 0, 0, 1);
+    }
+
+    nav:active {
+        display: block;
+    }
+
+    nav a {
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
+    }
+
+    nav a:hover,
+    nav a:active {
+        padding: 1rem;
+        border-radius: .5rem;
+    }
+}
+
+/* Animazioni */
+
+@keyframes leave {
+    from {
+        opacity: 1;
+        transform: translateY(0) scale(1.2);
+    } to {
+        opacity: 0;
+        transform: translateY(200px) scale(.3);
+    }
+}
+
+@keyframes autoBlur{
+    0% {
+        filter: blur(40px);
+    } 45%, 55% {
+        filter: blur(0px);
+    } 100% {
+        filter: blur(40px);
+    }
+}
+
+@keyframes cursor {
+    to {
+        border-right: 3px solid var(--colore);
     }
 }
