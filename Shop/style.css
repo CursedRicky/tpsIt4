@@ -27,7 +27,32 @@ body {
     overflow-x: hidden;
     background-color: black;
     color: white;
+    --sb-track-color: #232e33;
+    --sb-thumb-color: #f60a7f;
+    --sb-size: 15px;
 }
+
+body::-webkit-scrollbar {
+    width: var(--sb-size);
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: var(--sb-track-color);
+    border-radius: 20px;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background: var(--sb-thumb-color);
+    border-radius: 20px;
+    border: 2px solid #232e33;
+  }
+  
+  @supports not selector(::-webkit-scrollbar) {
+    body {
+        scrollbar-color: var(--sb-thumb-color)
+                       var(--sb-track-color);
+    }
+  }
 
 header {
     background-color: rgba(0, 0, 0, .1);
@@ -47,14 +72,21 @@ header {
 
 .logo {
     font-size: 3rem;
-    color: var(--colore);
     font-weight: 800;
     cursor: pointer;
     transition: .5s ease;
+    background-image: linear-gradient(43deg, var(--colore) 0%, var(--blue) 40%, #ff4d69 100%);
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
 .logo:hover {
     transform: scale(1.1);
+}
+
+.blob {
+    position: absolute;
+    z-index: -1;
 }
 
 nav a {
@@ -73,7 +105,7 @@ nav a:active {
 
 section {
     min-height: 100vh;
-    
+    min-width: 100%;
 }
 
 .z0 {
@@ -87,7 +119,6 @@ section {
 .z2 {
     z-index: 2;
 }
-
 
 .home {
     display: flex;
@@ -111,10 +142,6 @@ span {
     font-size: 4rem;
     margin-bottom: 1rem;
     font-weight: 700;
-}
-
-.home-img {
-    border-radius: 50%;
 }
 
 .home-img img {
@@ -185,6 +212,12 @@ span {
 .autoBlur {
     animation: autoBlur both;
     animation-timeline: view();
+}
+
+.titolo {
+    background-image: linear-gradient(43deg, var(--colore) 0%, var(--blue) 40%, #ff4d69 100%);
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
 /* Gestione responsiva */
