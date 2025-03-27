@@ -1,0 +1,62 @@
+[
+  {
+    "nome": "Stratocaster",
+    "prezzo": 3499.99,
+    "immagine": "https://www.example.com/images/stratocaster.jpg",
+    "categoria": "Fender"
+  },
+  {
+    "nome": "Les Paul Standard",
+    "prezzo": 1500.00,
+    "immagine": "https://www.example.com/images/les-paul.jpg",
+    "categoria": "Gibson"
+  },
+  {
+    "nome": "RG Series",
+    "prezzo": 700.00,
+    "immagine": "https://www.example.com/images/ibanez-rg.jpg",
+    "categoria": "Ibanez"
+  },
+  {
+    "nome": "Pacifica",
+    "prezzo": 300.00,
+    "immagine": "https://www.example.com/images/yamaha-pacifica.jpg",
+    "categoria": "Yamaha"
+  },
+  {
+    "nome": "Les Paul Special II",
+    "prezzo": 500.00,
+    "immagine": "https://www.example.com/images/epiphone-les-paul.jpg",
+    "categoria": "Epiphone"
+  },
+  {
+    "nome": "SG Standard",
+    "prezzo": 800.00,
+    "immagine": "https://www.example.com/images/gibson-sg.jpg",
+    "categoria": "Gibson"
+  },
+  {
+    "nome": "Telecaster",
+    "prezzo": 900.00,
+    "immagine": "https://www.example.com/images/telecaster.jpg",
+    "categoria": "Fender"
+  },
+  {
+    "nome": "Flying V",
+    "prezzo": 1200.00,
+    "immagine": "https://www.example.com/images/gibson-flying-v.jpg",
+    "categoria": "Gibson"
+  },
+  {
+    "nome": "Explorer",
+    "prezzo": 1300.00,
+    "immagine": "https://www.example.com/images/gibson-explorer.jpg",
+    "categoria": "Gibson"
+  },
+  {
+    "nome": "Jackson JS Series",
+    "prezzo": 400.00,
+    "immagine": "https://www.example.com/images/jackson-js.jpg",
+    "categoria": "Jackson"
+  }
+]
