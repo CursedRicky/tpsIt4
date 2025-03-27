@@ -35,7 +35,7 @@
       <div class="home-content">
         <h1>Chitarre <span class="titolo">per "pochi"</span></h1>
       </div>
-      <!-- <svg
+      <svg
         class="blob"
         id="visual"
         viewBox="0 0 960 540"
@@ -59,7 +59,7 @@
             fill="#008dd6"
           ></path>
         </g>
-      </svg> -->
+      </svg>
     </section>
 
     <div class="spacer layer1 z1"></div>
@@ -72,13 +72,6 @@
       <br><br>
       <div class="products"></div>
       </div>
-      <!-- <div style="scale: .7;" class="row">
-                <div class="column"><img src="./imgs/erasebg-transformed.webp" alt=""></div>
-                <div class="column"><img src="./imgs/erasebg-transformed.webp" alt=""></div>
-                <div class="column"><img src="./imgs/erasebg-transformed.webp" alt=""></div>
-                <div class="column"><img src="./imgs/erasebg-transformed.webp" alt=""></div>
-                <div class="column"><img src="./imgs/erasebg-transformed.webp" alt=""></div>
-              </div> -->
     </section>
   </div>
 
@@ -90,6 +83,16 @@
     </p>
   </footer>
 </body>
+<script>
+
+  const tween = KUTE.fromTo(
+    '#blob1',
+    { path: '#blob1' },
+    { path: '#blob2' },
+    { repeat: 999, duration: 8000, yoyo: true}
+  ).start();
+
+</script>
 <script src="app.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </html>
