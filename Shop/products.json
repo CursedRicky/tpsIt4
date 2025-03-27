@@ -1,62 +1,56 @@
 [
   {
-    "nome": "Stratocaster",
+    "nome": "Fender Stratocaster",
     "prezzo": 3499.99,
-    "immagine": "https://www.example.com/images/stratocaster.jpg",
+    "immagine": "./imgs/products/strato.png",
     "categoria": "Fender"
   },
   {
     "nome": "Les Paul Standard",
-    "prezzo": 1500.00,
-    "immagine": "https://www.example.com/images/les-paul.jpg",
+    "prezzo": 2499.00,
+    "immagine": "./imgs/products/lespauls.png",
     "categoria": "Gibson"
   },
   {
-    "nome": "RG Series",
-    "prezzo": 700.00,
-    "immagine": "https://www.example.com/images/ibanez-rg.jpg",
-    "categoria": "Ibanez"
-  },
-  {
     "nome": "Pacifica",
-    "prezzo": 300.00,
-    "immagine": "https://www.example.com/images/yamaha-pacifica.jpg",
+    "prezzo":  1135.00,
+    "immagine": "./imgs/products/pacifica.png",
     "categoria": "Yamaha"
   },
   {
     "nome": "Les Paul Special II",
-    "prezzo": 500.00,
-    "immagine": "https://www.example.com/images/epiphone-les-paul.jpg",
+    "prezzo": 1645.00,
+    "immagine": "./imgs/products/lpspecial.png",
     "categoria": "Epiphone"
   },
   {
     "nome": "SG Standard",
-    "prezzo": 800.00,
-    "immagine": "https://www.example.com/images/gibson-sg.jpg",
+    "prezzo": 1399.00,
+    "immagine": "./imgs/products/sg.png",
     "categoria": "Gibson"
   },
   {
-    "nome": "Telecaster",
-    "prezzo": 900.00,
-    "immagine": "https://www.example.com/images/telecaster.jpg",
+    "nome": "Fender Telecaster",
+    "prezzo": 1429.00,
+    "immagine": "./imgs/products/tele.png",
     "categoria": "Fender"
   },
   {
     "nome": "Flying V",
-    "prezzo": 1200.00,
-    "immagine": "https://www.example.com/images/gibson-flying-v.jpg",
+    "prezzo":  2439.00,
+    "immagine": "./imgs/products/v.png",
     "categoria": "Gibson"
   },
   {
-    "nome": "Explorer",
-    "prezzo": 1300.00,
-    "immagine": "https://www.example.com/images/gibson-explorer.jpg",
+    "nome": "Gibson Explorer",
+    "prezzo": 2159.00,
+    "immagine": "./imgs/products/explorer.png",
     "categoria": "Gibson"
   },
   {
     "nome": "Jackson JS Series",
-    "prezzo": 400.00,
-    "immagine": "https://www.example.com/images/jackson-js.jpg",
+    "prezzo": 375.00,
+    "immagine": "./imgs/products/js.png",
     "categoria": "Jackson"
   }
 ]

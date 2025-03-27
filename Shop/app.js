@@ -25,6 +25,8 @@ fetch("./products.json")
     const img = document.createElement('img')
     img.src = element.immagine
     img.classList.add("card-img-top")
+    img.style.paddingTop = "1rem"
+    img.style.borderRadius = "10px"
 
     const cardBody = document.createElement('div')
     cardBody.classList.add("card-body")
