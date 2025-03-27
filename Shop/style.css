@@ -291,6 +291,9 @@ span {
 }
 
 @media(max-width:955px) {
+    .blob {
+        visibility: hidden;
+    }
     nav {
         display: none;
         position: absolute;
