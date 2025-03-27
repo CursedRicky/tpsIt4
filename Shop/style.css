@@ -243,6 +243,10 @@ span {
 }
 
 .card {
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: rgba(0, 141, 214, .3);
+    backdrop-filter: blur(20px);
     animation: appear linear;
     animation-timeline: view();
     animation-range: entry 0 cover 30%;
