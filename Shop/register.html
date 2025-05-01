@@ -46,7 +46,7 @@
             <div class="container-fluid text-center blob" style="z-index: 3; scale:1.6">
                 <form class="form-group" action="./index.html">
                         <div class="mb-3 bg">
-                            <h1 class="fs-1 fw-bolder title fw-bolder">Crea account</h1>
+                            <h1 class="fs-1 fw-bolder title fw-bolder">Crea profilo</h1>
                             <br>
                           <label class="form-label">Username</label>
                           <input class="form-control" type="text" id="nome">
@@ -55,7 +55,7 @@
                           <input class="form-control" type="Password" id="cognome" required>
                           <br>                
                         <br>
-                        <input class="btn btn-outline-sulfur btn-lg" type="submit" value="Registrati">
+                        <input class="btn btn-outline-sulfur btn-lg" type="submit" value="Registrati" onclick="setUsername()">
                     </div>
                 </form>
                 
@@ -65,17 +65,19 @@
     </div>
     
 
-    
+    <div class="spacer layer2 z1"></div>
+
+   
 </body>
-<script src="./login.js"></script>
-<script>
+    <script src="./login.js"></script>
+    <script>
 
-  const tween = KUTE.fromTo(
-    '#blob1',
-    { path: '#blob1' },
-    { path: '#blob2' },
-    { repeat: 999, duration: 8000, yoyo: true}
-  ).start();
-
-</script>
+      const tween = KUTE.fromTo(
+        '#blob1',
+        { path: '#blob1' },
+        { path: '#blob2' },
+        { repeat: 999, duration: 8000, yoyo: true}
+      ).start();
+    
+    </script>
 </html>
