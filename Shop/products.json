@@ -3,54 +3,63 @@
     "nome": "Fender Stratocaster",
     "prezzo": 3499.99,
     "immagine": "./imgs/products/strato.png",
-    "categoria": "Fender"
+    "categoria": "Fender",
+    "descrizione": "La  Fender Stratocaster  è una chitarra elettrica che ha rivoluzionato il mondo della musica fin dalla sua introduzione nel  1954 . Con un corpo realizzato in  ontano  o  frassino , questa chitarra è nota per il suo suono brillante e definito. Il manico è in  acero , spesso con una tastiera in acero o  palissandro , che contribuisce a una suonabilità fluida e confortevole. La Stratocaster monta  tre pickup single-coil  che offrono una gamma di toni versatili, perfetti per generi che spaziano dal rock al blues, dal funk al country. La sua forma iconica e l'ergonomia la rendono non solo bella, ma anche praticabile per lunghe sessioni di suono. Artisti del calibro di  Jimi Hendrix ,  Eric Clapton , e  David Gilmour  l'hanno utilizzata, rendendola un simbolo di innovazione e stile nella musica."
   },
   {
     "nome": "Les Paul Standard",
     "prezzo": 2499.00,
     "immagine": "./imgs/products/lespauls.png",
-    "categoria": "Gibson"
+    "categoria": "Gibson",
+    "descrizione": "La  Les Paul Standard  è una delle chitarre più venerabili e rispettate nel panorama musicale, introdotta per la prima volta nel  1952 . Questa chitarra è caratterizzata da un corpo in  mogano  con un top in  acero , che non solo conferisce un aspetto accattivante, ma contribuisce anche a un suono ricco e profondo. Il manico è anch'esso in mogano, con una tastiera in  palissandro , che offre una sensazione calda e comoda. La Les Paul è equipaggiata con  due pickup humbucker , noti per il loro suono potente e corposo, perfetto per il rock e il blues. Grazie alla sua struttura solida e al suo sustain eccezionale, è stata utilizzata da leggende come  Jimmy Page ,  Slash  e  Joe Perry , diventando un pilastro in innumerevoli generi musicali, dal rock al metal."
   },
   {
     "nome": "Pacifica",
-    "prezzo":  1135.00,
+    "prezzo": 1135.00,
     "immagine": "./imgs/products/pacifica.png",
-    "categoria": "Yamaha"
+    "categoria": "Yamaha",
+    "descrizione": "La  Yamaha Pacifica  è una chitarra elettrica versatile, progettata per soddisfare sia i musicisti principianti che i professionisti esperti. La sua costruzione varia a seconda del modello, ma generalmente presenta un corpo in  ontano  o  nato , un manico in  acero  e una tastiera in  palissandro . Questa combinazione di legni conferisce alla Pacifica un suono equilibrato e una suonabilità eccellente. La chitarra è dotata di una configurazione di pickup HSS (humbucker-single-single) che permette di esplorare una vasta gamma di toni, rendendola adatta a diversi generi musicali, dal rock al jazz. La Pacifica è apprezzata per la sua affidabilità e costruzione robusta, ed è stata utilizzata da numerosi artisti in tutto il mondo, sfruttando la sua versatilità per adattarsi a diverse situazioni musicali."
   },
   {
     "nome": "Les Paul Special II",
     "prezzo": 1645.00,
     "immagine": "./imgs/products/lpspecial.png",
-    "categoria": "Epiphone"
+    "categoria": "Epiphone",
+    "descrizione": "La  Les Paul Special II  è una chitarra elettrica che offre un accesso economico al suono leggendario della Les Paul. Costruita con un corpo in  mogano  e un manico anch'esso in mogano, presenta una tastiera in  palissandro  per una sensazione calda e confortevole. Questa chitarra è equipaggiata con  due pickup humbucker , che forniscono un suono caldo e ricco, ideale per generi come rock, blues e hard rock. La Les Paul Special II è progettata per essere leggera e maneggevole, rendendola perfetta per i musicisti che cercano una chitarra che non solo suoni bene, ma sia anche comoda da suonare per lunghe sessioni. È un'ottima scelta per i chitarristi che desiderano un suono classico senza spendere una fortuna, e ha guadagnato una buona reputazione tra i musicisti emergenti e i professionisti."
   },
   {
     "nome": "SG Standard",
     "prezzo": 1399.00,
     "immagine": "./imgs/products/sg.png",
-    "categoria": "Gibson"
+    "categoria": "Gibson",
+    "descrizione": "La  Gibson SG Standard  è una chitarra elettrica caratterizzata da un design audace e un suono potente, con un corpo sottile e leggero che la rende molto maneggevole. Costruita con un corpo in  mogano , un manico in mogano e una tastiera in  palissandro , questa chitarra è conosciuta per il suo sustain eccezionale e il suono aggressivo. La SG Standard è dotata di  due pickup humbucker , che forniscono toni caldi e ricchi, perfetti per il rock e il metal. La sua forma ergonomica e il bilanciamento ottimale rendono questa chitarra ideale per i musicisti che suonano in piedi o per lunghi concerti. Artisti come  Angus Young  degli  AC/DC  e  Tony Iommi  dei  Black Sabbath  hanno contribuito alla sua fama, utilizzandola per creare suoni iconici."
   },
   {
     "nome": "Fender Telecaster",
     "prezzo": 1429.00,
     "immagine": "./imgs/products/tele.png",
-    "categoria": "Fender"
+    "categoria": "Fender",
+    "descrizione": "La  Fender Telecaster  è una delle chitarre più iconiche e versatili mai create, con una storia che risale al  1950 . Nota per il suo suono brillante e definito, la Telecaster è tipicamente costruita con un corpo in  ontano  o  frassino , un manico in  acero  e una tastiera in acero o  palissandro . Monta  due pickup single-coil , che offrono un suono chiaro e squillante, perfetto per generi che vanno dal country al rock, dal blues fino al pop. La Telecaster è conosciuta per la sua semplicità e robustezza, rendendola una scelta popolare tra musicisti di tutti i livelli. Artisti come  Brad Paisley  e  Keith Richards  hanno scelto la Telecaster per il suo tono unico e la sua affidabilità, contribuendo a cementare il suo status di classico."
   },
   {
     "nome": "Flying V",
-    "prezzo":  2439.00,
+    "prezzo": 2439.00,
     "immagine": "./imgs/products/v.png",
-    "categoria": "Gibson"
+    "categoria": "Gibson",
+    "descrizione": "La  Gibson Flying V  è una chitarra elettrica dal design audace e futuristico, progettata per il rock e l'heavy metal. Con un corpo in  mogano  e un manico anch'esso in mogano, questa chitarra è dotata di una tastiera in  palissandro  che offre una sensazione calda e comoda. Monta  due pickup humbucker , noti per la loro capacità di produrre un suono potente e ricco, perfetto per i riff pesanti e le sonorità aggressive. La Flying V è famosa non solo per il suo suono eccezionale, ma anche per il suo aspetto distintivo, che la rende una scelta popolare tra i musicisti che vogliono fare una dichiarazione visiva oltre che sonora. Utilizzata da artisti come  Jimi Hendrix  e  Kirk Hammett  dei  Metallica , la Flying V è diventata un simbolo di ribellione e innovazione musicale."
   },
   {
     "nome": "Gibson Explorer",
     "prezzo": 2159.00,
     "immagine": "./imgs/products/explorer.png",
-    "categoria": "Gibson"
+    "categoria": "Gibson",
+    "descrizione": "La  Gibson Explorer  è una chitarra elettrica dal design innovativo e distintivo, progettata per offrire un suono potente e versatile. Costruita con un corpo in  mogano , un manico in mogano e una tastiera in  palissandro , presenta una costruzione robusta e duratura. La Explorer è dotata di  due pickup humbucker , che forniscono un suono ricco e profondo, perfetto per generi come rock e metal. Introdotta nel  1958 , è diventata rapidamente una scelta popolare tra i musicisti per la sua capacità di produrre toni aggressivi e sustain eccezionale. Artisti come  James Hetfield  dei  Metallica  e  Dave Mustaine  dei  Megadeth  l'hanno utilizzata per creare suoni iconici, rendendola un simbolo di potente espressione musicale."
   },
   {
     "nome": "Jackson JS Series",
     "prezzo": 375.00,
     "immagine": "./imgs/products/js.png",
-    "categoria": "Jackson"
+    "categoria": "Jackson",
+    "descrizione": "La  Jackson JS Series  è una chitarra elettrica progettata specificamente per il metal, caratterizzata da un design aggressivo e da una suonabilità veloce. I legni variano a seconda del modello, ma generalmente presenta un corpo in  pioppo  o  mogano , un manico in  acero  e una tastiera in  palissandro  o  amaranth , tutti materiali che contribuiscono a una risposta sonora rapida e incisiva. La JS Series è equipaggiata con  humbucker ad alta uscita , ideali per toni distorti e aggressivi, perfetti per il metal e il rock pesante. La chitarra è nota per la sua costruzione robusta e la sua versatilità, rendendola una scelta eccellente per i chitarristi che cercano un suono potente e una facile maneggevolezza. Utilizzata da molti chitarristi professionisti, la Jackson JS Series è amata per la sua capacità di adattarsi a una vasta gamma di stili musicali."
   }
 ]

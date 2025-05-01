@@ -37,23 +37,23 @@ body::-webkit-scrollbar {
     width: var(--sb-size);
   }
   
-  body::-webkit-scrollbar-track {
-    background: var(--sb-track-color);
-    border-radius: 20px;
-  }
-  
-  body::-webkit-scrollbar-thumb {
-    background: var(--sb-thumb-color);
-    border-radius: 20px;
-    border: 2px solid #232e33;
-  }
-  
-  @supports not selector(::-webkit-scrollbar) {
-    body {
-        scrollbar-color: var(--sb-thumb-color)
-                       var(--sb-track-color);
+body::-webkit-scrollbar-track {
+background: var(--sb-track-color);
+border-radius: 20px;
+}
+
+body::-webkit-scrollbar-thumb {
+background: var(--sb-thumb-color);
+border-radius: 20px;
+border: 2px solid #232e33;
+}
+
+@supports not selector(::-webkit-scrollbar) {
+body {
+    scrollbar-color: var(--sb-thumb-color)
+                    var(--sb-track-color);
     }
-  }
+}
 
 header {
     background-color: rgba(0, 0, 0, .1);
@@ -193,6 +193,34 @@ span {
     min-width: 280px;
 }
 
+.btn-outline-sulfur {
+    scale: 1.2;
+    color: white;
+    background-image: linear-gradient(43deg, var(--colore) 0%, var(--blue) 40%, #ff4d69 100%);
+    border: none;
+    position: fixed;
+    margin-left: 100px;
+}
+
+.btn-outline-sulfur:hover {
+    color: rgb(200, 200, 200);
+    transform: translateY(-2rem);
+    transform: scale(1.1);
+    transition-duration: .25s;
+    background-color: var(--blue);
+    
+}
+
+.btn-outline-sulfur-d {
+    background-color: var(--blue);
+    border: 2px solid var(--blue);
+}
+
+.btn-outline-sulfur-d:hover {
+    color: #333;
+    background-color: var(--blue);
+}
+
 .typing-text span {
     position: relative;
     right: 8;
@@ -261,6 +289,37 @@ span {
     transform: scale(1.05);
     transition-duration: .25s;
 }
+
+.card-cont {
+    margin: 0 25%;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+}
+
+.card-c {
+    border-radius: 20px;
+    background-color: rgba(0, 141, 214, .3);
+    backdrop-filter: blur(20px);
+
+    margin: 0;
+    height: 100px;
+
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 30%;
+    transition-property: transform;
+    transition-duration: .25s;
+    transition-timing-function: linear;
+    cursor: pointer;
+}
+
+.card-c:hover {
+    transform: translateY(-2rem);
+    transform: scale(1.05);
+    transition-duration: .25s;
+}
+
 
 /* Gestione responsiva */
 
