@@ -4,32 +4,43 @@ function refreshTable() {
     let carrello = localStorage.getItem("carrello")
     document.querySelector(".nome").innerHTML = "Carrello di " + localStorage.getItem("nome")
 
+    let totale = 0
     let items = carrello.split(" | ")
 
     let prodotti = document.querySelector(".prodotti")
 
     for(let i = 0; i<items.length-1; i++) {
-        // alert(items[i])
+        
+        items[i] = items[i].substring(1, items[i].length-1)
+        let oggetto = items[i].split(",")
+        
+        let nome = oggetto[0].replaceAll('"', "")
+        let prezzo = oggetto[1]
 
-    // <div class="row card-cont">
-    //         <div class="col-10">
-    //         <div class="card-c">
-    //             <div class="row">
-    //             <div class="col-6">nome</div>
-    //             <div class="col-6">prezzo</div>
-    //             </div>
-    //         </div>
-    //         </div>
-    //         <div class="col-2">
-    //         <div class="card-c">
-    //             -
-    //         </div>
-    //         </div>
-    //     </div>
 
-        let oggetti = items[i].substring('"')
-        alert(oggetti)
+        let prodName = document.createElement("h1")
+        prodName.classList.add("col-6")
+        prodName.innerHTML = nome
 
-        // prodotti.appendChild(card)
+        let prodPrice = document.createElement("h1")
+        prodPrice.classList.add("col-6")
+        prodPrice.innerHTML = prezzo + "$"
+        totale+=parseInt(prezzo)
+
+        let prod = document.createElement("div")
+        prod.classList.add("row")
+
+        prod.appendChild(prodName)
+        prod.appendChild(prodPrice)
+
+
+        prodotti.appendChild(prod)
     }
+
+    document.querySelector(".prezzo").innerHTML = totale + "$"
+    
 }
+
+function paga() {
+    window.print()
+  }
