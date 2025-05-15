@@ -93,6 +93,10 @@ footer {
 
 .blob {
     position: absolute;
+    z-index: 1;
+}
+
+.finisher-header {
     z-index: -1;
 }
 
@@ -120,11 +124,11 @@ section {
 }
 
 .z1 {
-    z-index: 1;
+    z-index: 2;
 }
 
 .z2 {
-    z-index: 2;
+    z-index: 3;
 }
 
 .home {
@@ -133,6 +137,10 @@ section {
     align-items: center;
     gap: 8rem;
     background-color: black;
+}
+
+.home-content {
+    z-index: 2;
 }
 
 .home .home-content h1 {
@@ -152,6 +160,7 @@ span {
 }
 
 .home-img img {
+    z-index: 2;
     position: relative;
     width: 32vw;
     border-radius: 10%;

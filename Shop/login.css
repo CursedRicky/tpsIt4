@@ -45,18 +45,21 @@ body {
 }
 
 .bg {
-    background-color: rgba(0, 141, 214, .3);
+    background-color: rgba(0, 0, 0, .3);
     backdrop-filter: blur(20px);
     border-radius: 20px;
     padding: 30px;
+    border: 2px solid white;
 }
 
 .btn-outline-sulfur {
-    color: var(--blue);
-    border: 2px solid var(--blue);
+    background-color: white;
+    color: black;
+    padding: 5px 60px;
+    border: 2px solid white;
 }
 
 .btn-outline-sulfur:hover {
     color: #333;
-    background-color: var(--blue);
+    background-color: white;
 }
