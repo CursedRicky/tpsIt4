@@ -9,7 +9,7 @@ function refreshTable() {
 
     let prodotti = document.querySelector(".prodotti")
 
-    for(let i = 0; i<items.length-1; i++) {
+    for(let i = 1; i<items.length-1; i++) {
         
         
 
